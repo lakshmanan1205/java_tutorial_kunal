@@ -1,0 +1,41 @@
+## 1.LEAP YEAR or NOT A LEAP YEAR
+start
+input year
+if year%4==0
+    if year % 100 == 0
+        if year % 400 == 0
+            LEAP YEAR
+            end
+        else
+            NOT A LEAP YEAR
+            end
+    else
+        LEAP YEAR
+        end
+else
+    NOT A LEAP YEAR
+    end
+
+## 2.SUM OF TWO NUMS
+start
+input A
+input B
+C = A + B
+output C
+end
+
+## 3.MULTIPLICATION TABLE
+start
+input A
+for loop from 1 to 10
+    output(i * A)
+end
+
+## 5.NUMBER LOOP
+start
+input A
+ans = 0
+while A != 'x'
+    ans = ans + x
+output A
+end
